@@ -11,6 +11,20 @@ https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
 
 ---
 
+## Project Background
+
+This project was originally developed as part of a university coursework assignment focused on machine learning model evaluation and comparison.
+
+The original academic project included additional classification models and experiments. For the purpose of this repository, the project was refined and simplified to present the three final models selected for comparison:
+
+* Logistic Regression with RFECV
+* Support Vector Machine (SVM)
+* Multilayer Perceptron (MLP)
+
+The objective was to compare different classification approaches on structured survey data and evaluate their performance using cross-validation and a separate holdout test set.
+
+---
+
 ## Project Structure & Workflow
 ### 1. Data Cleaning & Feature Engineering
 * Handled missing values using domain-informed assumptions (e.g., `self_employed`, `work_interfere`)
@@ -60,6 +74,14 @@ Final evaluation metrics collected on the holdout test set demonstrated the foll
 2. The MLP model achieved the highest overall scores, though differences between models were moderate.
 3. SVM provided a strong balance between performance and generalization.
 4. Logistic Regression offered the best interpretability with competitive baseline results.
+
+---
+
+## Limitations
+
+* The dataset contains approximately 1,200 survey responses, which is relatively small for training neural network models.
+* The MLP model was included primarily for educational and comparative purposes as part of the model evaluation process.
+* Results should be interpreted as a comparison of machine learning approaches on this dataset rather than as a production-ready predictive solution.
 
 ---
 
