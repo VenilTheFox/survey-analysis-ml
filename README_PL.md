@@ -6,6 +6,19 @@ Projekt analizuje dane ankietowe od pracowników branży technologicznej dotycz�
 
 ---
 
+## Tło Projektu
+Projekt ten został pierwotnie opracowany jako część akademickiego projektu zaliczeniowego, którego głównym założeniem było samodzielne wybranie i przygotowanie dowolnego zbioru danych pod kątem ewaluacji i porównania modeli uczenia maszynowego. 
+
+Zbiór danych ankietowych dotyczących zdrowia psychicznego w branży IT został wybrany jako autorskie case study do realizacji tego celu. Oryginalny projekt akademicki zawierał dodatkowe modele klasyfikacyjne i eksperymenty. Na potrzeby tego repozytorium projekt został dopracowany i uproszczony, aby zaprezentować trzy ostateczne modele wybrane do porównania:
+
+* Regresja Logistyczna z RFECV
+* Maszyna Wektorów Nośnych (SVM)
+* Perceptron Wielowarstwowy (MLP – sieć neuronowa)
+
+Celem projektu było samodzielne przeprowadzenie pełnego procesu inżynierii danych na wybranym zbiorze, przetestowanie różnych podejść klasyfikacyjnych oraz ocena ich skuteczności przy użyciu walidacji krzyżowej i osobnego, wydzielonego zbioru testowego.
+
+---
+
 ## Zbiór danych
 W projekcie wykorzystano zbiór danych Mental Health in Tech Survey (2014) dostępny na Kaggle:
 https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
@@ -65,6 +78,14 @@ Wszystkie modele oceniano przy użyciu stratifikowanej 5-krotnej walidacji krzy�
 2. Model MLP uzyskał najlepsze wyniki, jednak różnice między modelami nie były duże.
 3. SVM zapewnił dobry kompromis między skutecznością a generalizacją.
 4. Regresja logistyczna oferuje najlepszą interpretowalność przy konkurencyjnych wynikach.
+
+---
+
+## Ograniczenia projektu
+
+* Zbiór danych zawiera około 1200 odpowiedzi z ankiet, co jest stosunkowo małą liczbą na potrzeby trenowania modeli sieci neuronowych.
+* Model MLP został włączony do projektu głównie w celach edukacyjnych i porównawczych jako element procesu ewaluacji modeli.
+* Wyniki należy interpretować jako porównanie algorytmów uczenia maszynowego na tym konkretnym zbiorze danych, a nie jako gotowe do wdrożenia produkcyjnego rozwiązanie predykcyjne.
 
 ---
 
