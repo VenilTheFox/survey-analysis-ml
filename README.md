@@ -12,16 +12,15 @@ https://www.kaggle.com/datasets/osmi/mental-health-in-tech-survey
 ---
 
 ## Project Background
+This project was originally developed as part of a university coursework assignment, where the primary requirement was to independently select and prepare any dataset for machine learning model evaluation and comparison. 
 
-This project was originally developed as part of a university coursework assignment focused on machine learning model evaluation and comparison.
-
-The original academic project included additional classification models and experiments. For the purpose of this repository, the project was refined and simplified to present the three final models selected for comparison:
+The dataset regarding mental health in the tech industry was chosen specifically for this case study. While the original academic project included additional classification models and experiments, this repository has been refined and streamlined to focus on the three final models selected for comparison:
 
 * Logistic Regression with RFECV
 * Support Vector Machine (SVM)
 * Multilayer Perceptron (MLP)
 
-The objective was to compare different classification approaches on structured survey data and evaluate their performance using cross-validation and a separate holdout test set.
+The objective was to clean and structure the chosen dataset from scratch, apply different classification approaches, and evaluate their performance using cross-validation and a separate holdout test set.
 
 ---
 
